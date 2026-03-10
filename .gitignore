@@ -1,0 +1,75 @@
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+.env.*
+
+# -------------------------
+# Python cache / compiled files
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Python build files
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+env/
+.venv/
+ENV/
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# OS generated files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# IDE / Editor folders
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Testing / coverage
+# -------------------------
+.coverage
+coverage.xml
+htmlcov/
+
+# -------------------------
+# Python packaging
+# -------------------------
+pip-wheel-metadata/
+
+# -------------------------
+# Pytest cache
+# -------------------------
+.pytest_cache/
